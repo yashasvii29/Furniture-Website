@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', serif;
+   /* scroll-behavior: smooth;
+    scroll-padding-top: 2rem;*/
+}
+.all-content{
+    background: #f7f5f2;
+}
+html ::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius:10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+:root{
+    --text-color:#000000;
+    --main-color:#83b735;
+}
+/*navbar start*/
+nav{
+    background-color: #edecea;
+}
+.nav-item{
+    padding: 0 20px;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+#logo span{
+    color: var(--main-color);
+    padding-left: 5px;
+}
+.nav-item a{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.nav-item a:hover{
+    color: var(--main-color);
+}
+/*navbar end*/
+/* home section start*/
+#home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/premium_photo-1661777863705-d3232b7c8088.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    align-items: center;   
+}
+#home .content{
+    margin-left: 60px;
+}
+#home .content h1{
+    font-size: 2.7rem;
+}
+#home .content p{
+    font-size: 0.938rem;
+   
+}
+#home span{
+    color: var(--main-color);
+}
+#btn{
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    background-color:var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #8fc53d ;
+    
+}
+/* home section start*/
+/*Shop */
+#shop{
+    width: 100%;
+    min-height: 100vh;
+}
+#shop .heading2{
+    margin-top:40px;
+}
+#shop img{
+    height: 350px;
+    width: 400px;
+}
+.heading2{
+    text-align: center;
+}
+.heading2 h6{
+    color: var(--main-color);
+}
+.heading2 span{
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: bold;   
+}
+#shop .card{
+    border-top-left-radius: 30px;
+}
+#shop .card img{
+    border-top-left-radius: 30px;
+}
+#shop .icon i{
+    color: var(--main-color);
+}
+#shop .card-body span i{
+    padding-left: 2px;
+}
+#shop p {
+   position: relative;
+   top: 20px;
+}
+#shop p span{
+    position: relative;
+    left: 17px;
+    top: 7px;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 4px 0 4px 0;
+    background-color: var(--main-color);
+    color: #fff;
+}
+#shop .card img{
+    transition: 0.5s;
+    cursor: pointer;
+}
+#shop img:hover{
+    transform: translateY(-10px);
+}
+/*Shop end*/
+/*Arrival start*/
+#new{
+    width: 100% ;
+    min-height: 100vh;
+}
+#new .heading3{
+    margin-top:40px;
+}
+#new img{
+    height: 350px;
+    width: 400px;
+}
+.heading3{
+    text-align: center;
+}
+.heading3 h6{
+    color: var(--main-color);
+}
+.heading3 span{
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: bold;   
+}
+#new .card{
+    border-top-left-radius: 30px;
+}
+#new .card img{
+    border-top-left-radius: 30px;
+}
+#new .icon i{
+    color: var(--main-color);
+}
+#new .card-body span i{
+    padding-left: 2px;
+}
+#new p {
+   position: relative;
+   top: 20px;
+}
+#new p span{
+    position: relative;
+    left: 17px;
+    top: 7px;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 4px 0 4px 0;
+    background-color: var(--main-color);
+    color: #fff;
+}
+#new .card img{
+    transition: 0.5s;
+    cursor: pointer;
+}
+#new img:hover{
+    transform: translateY(-10px);
+}
+/*Arrival end*/
+/*About start*/
+#about{
+    width: 100%;
+    min-height: 100vh;
+}
+#about span{
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ #btn{
+    width: 150px;
+    height: 42px;
+    margin-top: 20px;
+    background-color:var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #8fc53d ;   
+}
+#about p{
+    font-size: 0.8rem;
+}
+/*About end*/
